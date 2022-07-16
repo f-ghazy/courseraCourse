@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Console";
+}
+
+.header {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.menueItems {
+  margin: 40px 30px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.category {
+  background-color: lightgrey;
+  border: 1px solid black;
+  position: relative;
+  padding: 40px 10px 10px;
+  line-height: 1.3rem;
+}
+
+.title {
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
+.t1 {
+  background-color: pink;
+}
+.t2 {
+  background-color: red;
+  color: white;
+}
+.t3 {
+  background-color: yellow;
+}
